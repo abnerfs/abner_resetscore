@@ -3,88 +3,100 @@
 	"Reset Score of"
 	{
 		"#format"		"{1:s}"
-		"en"					"reset score of {1}."
-		"pt" 				"resetou o placar de {1}"
+		"en"			"reset score of {1}"
+		"pt"			"resetou o placar de {1}"
+		"ru"			"Сброшен счет {1}"
 	}
-	
+
 	"Set Score"
 	{
 		"#format"		"{1:s}"
-		"en"					"set score of {1}."
-		"pt"					"alterou o score do {1}."
+		"en"			"set score of {1}"
+		"pt"			"alterou o score do {1}"
+		"ru"			"Изменен счет {1}"
 	}
-	
+
 	"Set Stars of"
 	{
 		"#format"		"{1:s},{2:d}"
-		"en"					"set stars of {1} to {2}."
-		"pt"					"deixou as estrelas de {1} em {2}."
+		"en"			"set stars of {1} to {2}"
+		"pt"			"deixou as estrelas de {1} em {2}"
+		"ru"			"Звезды MVP {1} изменены на {2}"
 	}
 
 	"Set Assists of"
 	{
 		"#format"		"{1:s},{2:d}"
-		"en"					"set assists of {1} to {2}."
-		"pt"					"deixou as assistências de {1} em {2}."
+		"en"			"set assists of {1} to {2}"
+		"pt"			"deixou as assistências de {1} em {2}"
+		"ru"			"Помощи {1} изменены на {2}"
 	}
-	
+
 	"Set Points of"
 	{
 		"#format"		"{1:s},{2:d}"
-		"en"					"set points of {1} to {2}."
-		"pt"					"deixou os pontos de {1} em {2}."
+		"en"			"set points of {1} to {2}"
+		"pt"			"deixou os pontos de {1} em {2}"
+		"ru"			"Счет {1} изменен на {2}"
 	}
 
 	"Plugin Disabled"
 	{
-		"en"			"Plugin disabled."
-		"pt"			"Plugin desativado."
+		"en"			"Plugin disabled"
+		"pt"			"Plugin desativado"
+		"ru"			"Плагин отключен"
 	}
 
 	"Score 0"
 	{
-		"en"			"Your Score is already 0."
-		"pt" 		"Seu score ja está zerado!"
+		"en"			"Your Score is already 0"
+		"pt"			"Seu score ja está zerado"
+		"ru"			"Ваш счет уже 0"
 	}
-	
+
 	"Restored"
 	{
-		"en"			"Score restored."
-		"pt" 		    "Placar restaurado."
+		"en"			"Score restored"
+		"pt"			"Placar restaurado"
+		"ru"			"Счет восстановлен"
 	}
-	
+
 	"No Money"
 	{
-		"#format" 	"{1:d}"
-		"en"			"You don´t have enough money (Cost ${1})."
-		"pt" 		    "Você não tem dinheiro suficiente (Custo ${1})."
+		"#format"		"{1:d}"
+		"en"			"You don´t have enough money (Cost ${1})"
+		"pt"			"Você não tem dinheiro suficiente (Custo ${1})"
+		"ru"			"У вас недостаточно денег (Стоимость ${1})"
 	}
 
 	"Player Reset Red"
 	{
 		"#format"		"{1:s}"
-		"en"			 		"Player {red}{1} {default}has just reset his score !"
-		"pt" 				"Jogador {red}{1} {default}acaba de resetar seu score !"
+		"en"			"Player {red}{1} {default}has just reset his score!"
+		"pt"			"Jogador {red}{1} {default}acaba de resetar seu score!"
+		"ru"			"Игрок {red}{1} {default} только что сбросил счет!"
 	}
 
 	"Player Reset Blue"
 	{
 		"#format"		"{1:s}"
-		"en"					"Player {blue}{1} {default}has just reset his score !"
-		"pt" 				"Jogador {blue}{1} {default}acaba de resetar seu score !"
+		"en"			"Player {blue}{1} {default}has just reset his score!"
+		"pt"			"Jogador {blue}{1} {default}acaba de resetar seu score!"
+		"ru"			"Игрок {blue}{1} {default}только что сбросил свой счет!"
 	}
 
 	"Player Reset Normal"
 	{
 		"#format"		"{1:s}"
-		"en"					"Player {lightgreen}{1} {default}has just reset his score !"
-		"pt" 				"Jogador {lightgreen}{1} {default}acaba de resetar seu score !"
+		"en"			"Player {lightgreen}{1} {default}has just reset his score!"
+		"pt"			"Jogador {lightgreen}{1} {default}acaba de resetar seu score!"
+		"ru"			"Игрок {lightgreen}{1} {default}только что сбросил свой счет!"
 	}
 
 	"You Reset"
 	{
-		"en"					"You sucefully reset your score !"
-		"pt"					"Você resetou seu score com sucesso !"
+		"en"			"You successfully reset your score!"
+		"pt"			"Você resetou seu score com sucesso!"
+		"ru"			"Вы успешно сбросили свой счет!"
 	}
-
 }

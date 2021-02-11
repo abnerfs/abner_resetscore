@@ -3,8 +3,9 @@
 	"Reset Score of"
 	{
 		"#format"		"{1:s}"
-		"en"					"reset score of {1}."
+		"en"				"reset score of {1}."
 		"pt" 				"resetou o placar de {1}"
+		"es"                "Puntuación reestablecida a {1}"
 	}
 	
 	"Set Score"
@@ -12,6 +13,7 @@
 		"#format"		"{1:s}"
 		"en"					"set score of {1}."
 		"pt"					"alterou o score do {1}."
+		"es"                    "Su puntuación cambio a {1}"
 	}
 	
 	"Set Stars of"
@@ -19,6 +21,7 @@
 		"#format"		"{1:s},{2:d}"
 		"en"					"set stars of {1} to {2}."
 		"pt"					"deixou as estrelas de {1} em {2}."
+		"es"                    "Se establecieron las estrellas de {1} a {2}."
 	}
 
 	"Set Assists of"
@@ -26,6 +29,7 @@
 		"#format"		"{1:s},{2:d}"
 		"en"					"set assists of {1} to {2}."
 		"pt"					"deixou as assistências de {1} em {2}."
+		"es"                    "Sus asistencias pasaron de {1} a {2}."
 	}
 	
 	"Set Points of"
@@ -33,24 +37,28 @@
 		"#format"		"{1:s},{2:d}"
 		"en"					"set points of {1} to {2}."
 		"pt"					"deixou os pontos de {1} em {2}."
+		"es"                    "Se establecieron los puntos de {1} a {2}."
 	}
 
 	"Plugin Disabled"
 	{
 		"en"			"Plugin disabled."
 		"pt"			"Plugin desativado."
+		"es"            "Plugin desactivado."
 	}
 
 	"Score 0"
 	{
 		"en"			"Your Score is already 0."
-		"pt" 		"Seu score ja está zerado!"
+		"pt" 		    "Seu score ja está zerado!"
+		"es"            "Su puntuación ya se encuentra en 0."
 	}
 	
 	"Restored"
 	{
 		"en"			"Score restored."
 		"pt" 		    "Placar restaurado."
+		"es"            "Puntuación reestablecida."
 	}
 	
 	"No Money"
@@ -58,6 +66,7 @@
 		"#format" 	"{1:d}"
 		"en"			"You don´t have enough money (Cost ${1})."
 		"pt" 		    "Você não tem dinheiro suficiente (Custo ${1})."
+		"es"            "Usted no tiene suficiente dinero (Costo ${1})
 	}
 
 	"Player Reset Red"
@@ -65,6 +74,7 @@
 		"#format"		"{1:s}"
 		"en"			 		"Player {red}{1} {default}has just reset his score !"
 		"pt" 				"Jogador {red}{1} {default}acaba de resetar seu score !"
+		"es"                    "Jugador {red}{1} {default} acaba de reiniciar su puntuación !"
 	}
 
 	"Player Reset Blue"
@@ -72,6 +82,7 @@
 		"#format"		"{1:s}"
 		"en"					"Player {blue}{1} {default}has just reset his score !"
 		"pt" 				"Jogador {blue}{1} {default}acaba de resetar seu score !"
+		"es"                    "Jugador {blue}{1} {default} acaba de reiniciar su puntuación !"
 	}
 
 	"Player Reset Normal"
@@ -79,12 +90,14 @@
 		"#format"		"{1:s}"
 		"en"					"Player {lightgreen}{1} {default}has just reset his score !"
 		"pt" 				"Jogador {lightgreen}{1} {default}acaba de resetar seu score !"
+		"es"                    "Jugador {lightgreen}{1} {default} acaba de reiniciar su puntuación !"
 	}
 
 	"You Reset"
 	{
 		"en"					"You sucefully reset your score !"
 		"pt"					"Você resetou seu score com sucesso !"
+		"es"                    "Su puntuación fue reestablecida con éxito !"
 	}
 
 }

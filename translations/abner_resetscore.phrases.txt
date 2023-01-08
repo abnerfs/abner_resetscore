@@ -1,90 +1,95 @@
 "Phrases"
 {
-	"Reset Score of"
+	"prefix"
 	{
-		"#format"		"{1:s}"
-		"en"					"reset score of {1}."
-		"pt" 				"resetou o placar de {1}"
-	}
-	
-	"Set Score"
-	{
-		"#format"		"{1:s}"
-		"en"					"set score of {1}."
-		"pt"					"alterou o score do {1}."
-	}
-	
-	"Set Stars of"
-	{
-		"#format"		"{1:s},{2:d}"
-		"en"					"set stars of {1} to {2}."
-		"pt"					"deixou as estrelas de {1} em {2}."
+        "en"         "[AbNeR ResetScore] "
+        "pt"         "[AbNeR ResetScore] "
 	}
 
-	"Set Assists of"
-	{
-		"#format"		"{1:s},{2:d}"
-		"en"					"set assists of {1} to {2}."
-		"pt"					"deixou as assistências de {1} em {2}."
-	}
-	
-	"Set Points of"
-	{
-		"#format"		"{1:s},{2:d}"
-		"en"					"set points of {1} to {2}."
-		"pt"					"deixou os pontos de {1} em {2}."
-	}
+    "Reset Score of"
+    {
+        "#format"    "{1:s}"
+        "en"         "reseted the score of {1}."
+        "pt"         "resetou o placar de {1}"
+    }
 
-	"Plugin Disabled"
-	{
-		"en"			"Plugin disabled."
-		"pt"			"Plugin desativado."
-	}
+    "Set Score"
+    {
+        "#format"    "{1:s}"
+        "en"         "changed the score of {1}."
+        "pt"         "alterou o score do {1}."
+    }
 
-	"Score 0"
-	{
-		"en"			"Your Score is already 0."
-		"pt" 		"Seu score ja está zerado!"
-	}
-	
-	"Restored"
-	{
-		"en"			"Score restored."
-		"pt" 		    "Placar restaurado."
-	}
-	
-	"No Money"
-	{
-		"#format" 	"{1:d}"
-		"en"			"You don´t have enough money (Cost ${1})."
-		"pt" 		    "Você não tem dinheiro suficiente (Custo ${1})."
-	}
+    "Set Stars of"
+    {
+        "#format"    "{1:s},{2:d}"
+        "en"         "set stars of {1} to {2}."
+        "pt"         "deixou as estrelas de {1} em {2}."
+    }
 
-	"Player Reset Red"
-	{
-		"#format"		"{1:s}"
-		"en"			 		"Player {red}{1} {default}has just reset his score !"
-		"pt" 				"Jogador {red}{1} {default}acaba de resetar seu score !"
-	}
+    "Set Assists of"
+    {
+        "#format"    "{1:s},{2:d}"
+        "en"         "set assists of {1} to {2}."
+        "pt"         "deixou as assistências de {1} em {2}."
+    }
 
-	"Player Reset Blue"
-	{
-		"#format"		"{1:s}"
-		"en"					"Player {blue}{1} {default}has just reset his score !"
-		"pt" 				"Jogador {blue}{1} {default}acaba de resetar seu score !"
-	}
+    "Set Points of"
+    {
+        "#format"    "{1:s},{2:d}"
+        "en"         "set points of {1} to {2}."
+        "pt"         "deixou os pontos de {1} em {2}."
+    }
 
-	"Player Reset Normal"
-	{
-		"#format"		"{1:s}"
-		"en"					"Player {lightgreen}{1} {default}has just reset his score !"
-		"pt" 				"Jogador {lightgreen}{1} {default}acaba de resetar seu score !"
-	}
+    "Plugin Disabled"
+    {
+        "en"    "Plugin disabled."
+        "pt"    "Plugin desativado."
+    }
 
-	"You Reset"
-	{
-		"en"					"You sucefully reset your score !"
-		"pt"					"Você resetou seu score com sucesso !"
-	}
+    "Score 0"
+    {
+        "en"    "Your score is already 0."
+        "pt"    "Seu score ja está zerado!"
+    }
 
+    "Restored"
+    {
+        "en"    "Score restored."
+        "pt"    "Placar restaurado."
+    }
+
+    "No Money"
+    {
+        "#format"    "{1:d}"
+        "en"         "You don't have enough money (Cost ${1})."
+        "pt"         "Você não tem dinheiro suficiente (Custo ${1})."
+    }
+
+    "Player Reset Red"
+    {
+        "#format"    "{1:s}"
+        "en"         "Player {red}{1} {default}has just reset his score !"
+        "pt"         "Jogador {red}{1} {default}acaba de resetar seu score !"
+    }
+
+    "Player Reset Blue"
+    {
+        "#format"    "{1:s}"
+        "en"         "Player {blue}{1} {default}has just reset his score !"
+        "pt"         "Jogador {blue}{1} {default}acaba de resetar seu score !"
+    }
+
+    "Player Reset Normal"
+    {
+        "#format"    "{1:s}"
+        "en"         "Player {lightgreen}{1} {default}has just reset his score !"
+        "pt"         "Jogador {lightgreen}{1} {default}acaba de resetar seu score !"
+    }
+
+    "You Reset"
+    {
+        "en"    "You succesfully reseted your score!"
+        "pt"    "Você resetou seu score com sucesso!"
+    }
 }

@@ -3,93 +3,135 @@
 	"prefix"
 	{
         "en"         "[AbNeR ResetScore] "
+	"es"	     "[AbNeR ResetScore] "
+	"lv"         "[AbNeR ResetScore] "
         "pt"         "[AbNeR ResetScore] "
+	"ru"         "[AbNeR ResetScore] "
 	}
 
     "Reset Score of"
     {
-        "#format"    "{1:s}"
-        "en"         "reseted the score of {1}."
-        "pt"         "resetou o placar de {1}"
+        "#format"  "{1:s}"
+        "en"       "reseted the score of {1}."
+	"es"	   "Puntuación reestablecida a {1}"
+	"lv"       "nodzēst rekordu no {1}."
+        "pt"       "resetou o placar de {1}"
+	"ru"	   "Сброшен счет {1}"
     }
 
     "Set Score"
     {
-        "#format"    "{1:s}"
-        "en"         "changed the score of {1}."
-        "pt"         "alterou o score do {1}."
+        "#format"  "{1:s}"
+        "en"       "changed the score of {1}."
+	"es"	   "Su puntuación cambio a {1}"
+	"lv"       "uzlikt rekordu uz {1}."
+        "pt"       "alterou o score do {1}."
+	"ru"	   "Изменен счет {1}"
     }
 
     "Set Stars of"
     {
-        "#format"    "{1:s},{2:d}"
-        "en"         "set stars of {1} to {2}."
-        "pt"         "deixou as estrelas de {1} em {2}."
+        "#format"  "{1:s},{2:d}"
+        "en"       "set stars of {1} to {2}."
+	"es"	   "Se establecieron las estrellas de {1} a {2}."
+	"lv"       "uzlikt zvaigznes no {1} uz {2}."
+        "pt"       "deixou as estrelas de {1} em {2}."
+	"ru"	   "Звезды MVP {1} изменены на {2}"
     }
 
     "Set Assists of"
     {
-        "#format"    "{1:s},{2:d}"
-        "en"         "set assists of {1} to {2}."
-        "pt"         "deixou as assistências de {1} em {2}."
+        "#format"  "{1:s},{2:d}"
+        "en"       "set assists of {1} to {2}."
+	"es"	   "Sus asistencias pasaron de {1} a {2}."
+	"lv"       "uzlikt assists no {1} uz {2}."
+        "pt"       "deixou as assistências de {1} em {2}."
+	"ru"	   "Помощи {1} изменены на {2}"
     }
 
     "Set Points of"
     {
-        "#format"    "{1:s},{2:d}"
-        "en"         "set points of {1} to {2}."
-        "pt"         "deixou os pontos de {1} em {2}."
+        "#format"  "{1:s},{2:d}"
+        "en"       "set points of {1} to {2}."
+	"es"	   "Se establecieron los puntos de {1} a {2}."
+	"lv"       "uzlikt punktus uz {1} no {2}."
+        "pt"       "deixou os pontos de {1} em {2}."
+	"ru"	   "Счет {1} изменен на {2}"
     }
 
     "Plugin Disabled"
     {
         "en"    "Plugin disabled."
+	"es"    "Plugin desactivado."
+	"lv"    "Plugins atslēgts."
         "pt"    "Plugin desativado."
+	"ru"    "Плагин отключен"
     }
 
     "Score 0"
     {
         "en"    "Your score is already 0."
+	"es"    "Su puntuación ya se encuentra en 0.}"
+	"lv"    "Tavs rekords jau ir 0."
         "pt"    "Seu score ja está zerado!"
+	"ru"    "Ваш счет уже 0"
     }
 
     "Restored"
     {
-        "en"    "Score restored."
-        "pt"    "Placar restaurado."
+        "en"   "Score restored."
+	"es"   "Puntuación reestablecida."
+	"lv"   "Rekords nodzēsts."
+        "pt"   "Placar restaurado."
+	"ru"   "Счет восстановлен"
     }
 
     "No Money"
     {
-        "#format"    "{1:d}"
-        "en"         "You don't have enough money (Cost ${1})."
-        "pt"         "Você não tem dinheiro suficiente (Custo ${1})."
+        "#format"  "{1:d}"
+        "en"       "You don't have enough money (Cost ${1})."
+	"es"	   "Usted no tiene suficiente dinero (Costo ${1})"
+	"lv"       "Tev nepietiek naudas (Cena ${1})."
+        "pt"       "Você não tem dinheiro suficiente (Custo ${1})."
+	"ru"	   "У вас недостаточно денег (Стоимость ${1})"
     }
 
     "Player Reset Red"
     {
         "#format"    "{1:s}"
-        "en"         "Player {red}{1} {default}has just reset his score !"
-        "pt"         "Jogador {red}{1} {default}acaba de resetar seu score !"
+        "en"         "Player {red}{1} {default}has just reset his score!"
+	"es"         "Jugador {lightgreen}{1} {default} acaba de reiniciar su puntuación!"
+	"lv"         "Spēlētājs {red}{1} {default}tikko nodzēsa savu rekordu!"
+        "pt"         "Jugador {red}{1} {default} acaba de reiniciar su puntuación!"
+	"ru"	     "Игрок {red}{1} {default} только что сбросил счет!"
     }
 
     "Player Reset Blue"
     {
         "#format"    "{1:s}"
-        "en"         "Player {blue}{1} {default}has just reset his score !"
-        "pt"         "Jogador {blue}{1} {default}acaba de resetar seu score !"
+        "en"         "Player {blue}{1} {default}has just reset his score!"
+	"es"         "Jugador {blue}{1} {default} acaba de reiniciar su puntuación!"
+	"lv"         "Spēlētājs {blue}{1} {default}tikko nodzēsa savu rekordu!"
+        "pt"         "Jogador {blue}{1} {default}acaba de resetar seu score!"
+	"ru"	     "Игрок {blue}{1} {default}только что сбросил свой счет!"
     }
 
     "Player Reset Normal"
     {
         "#format"    "{1:s}"
-        "en"         "Player {lightgreen}{1} {default}has just reset his score !"
-        "pt"         "Jogador {lightgreen}{1} {default}acaba de resetar seu score !"
+        "en"         "Player {lightgreen}{1} {default}has just reset his score!"
+	"es"         "Jugador {lightgreen}{1} {default} acaba de reiniciar su puntuación!"
+	"lv"         "Spēlētājs {lightgreen}{1} {default}tikko nodzēsa savu rekordu!"
+        "pt"         "Jogador {lightgreen}{1} {default}acaba de resetar seu score!"
+	"ru"	     "Игрок {lightgreen}{1} {default}только что сбросил свой счет!"
     }
 
     "You Reset"
     {
         "en"    "You succesfully reseted your score!"
+	"es"    "Su puntuación fue reestablecida con éxito!"
+	"lv"    "Tu veiksmīgi nodzēsi savu rekordu!"
         "pt"    "Você resetou seu score com sucesso!"
+	"ru"    "Вы успешно сбросили свой счет!"
     }
 }
